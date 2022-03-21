@@ -2,7 +2,14 @@ from typing import Dict
 
 
 def TestPalindromeFunc():
-    TestDict = {"blablabla": False, "menem":True, "example":False }
+    TestDict = {"blablabla": False, 
+        "menem":True, 
+        "example":False,
+        "anna12321anna":True,
+        "annaanna": True,
+        "NeuqueN": True,
+        "prueba": False,
+        "Neuquen": False}
     
     for word, expected in TestDict.items():
         result = isPalindrome(word)
